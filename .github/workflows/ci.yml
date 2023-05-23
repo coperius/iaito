@@ -3,13 +3,7 @@ name: iaito CI
 env:
   R2V: 5.8.6
 
-on:
-  push:
-    branches:
-    - master
-  pull_request:
-    branches:
-    - master
+on: workflow_dispatch
 
 jobs:
   acr-linux-r2git:
