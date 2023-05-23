@@ -110,7 +110,7 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         name: iaito-mac-amd64.zip
-        path: dist/macos/iaito*.zip
+        path: dist/macos/iaito*.dmg
   meson:
     runs-on: ${{ matrix.os }}
     strategy:
